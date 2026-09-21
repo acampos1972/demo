@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "ff03fec0-eccc-42b3-bb59-9545cff88a85",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25366184",
+		"_collection_link": "https://www.postman.com/acampos-1972-s-team/workspace/demotvmaze/collection/25366184-ff03fec0-eccc-42b3-bb59-9545cff88a85?action=share&source=collection_link&creator=25366184"
+	},
+	"item": [
+		{
+			"name": "https://api.tvmaze.com/search/shows?q=girls",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tvmaze.com/search/shows?q=girls",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"search",
+						"shows"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "girls"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.tvmaze.com/shows/139",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tvmaze.com/shows/139",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tvmaze",
+						"com"
+					],
+					"path": [
+						"shows",
+						"139"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
